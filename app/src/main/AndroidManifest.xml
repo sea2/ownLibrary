@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.gm88.demo.mylibaray">
+          package="com.demo.mylibaray">
 
     <application
         android:allowBackup="true"

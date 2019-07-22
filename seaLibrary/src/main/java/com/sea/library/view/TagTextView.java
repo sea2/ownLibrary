@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.sea.library.util.DensityUtil;
+import com.sea.library.util.DensityUtilss;
 
 
 /**
@@ -31,7 +31,7 @@ public class TagTextView extends TextView {
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         super.onLayout(changed, left, top, right, bottom);
                 int width = getWidth();
-        if (width < DensityUtil.dp2px(30)) setVisibility(GONE);
+        if (width < DensityUtilss.dp2px(30)) setVisibility(GONE);
     }
 }
 

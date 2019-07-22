@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="round_Width" format="dimension"/>
+        <attr name="round_Height" format="dimension"/>
+        <attr name="round_Type" format="integer"/>
+    </declare-styleable>
+
+
+
+
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+    </declare-styleable>
+
+
+
+
+    <declare-styleable name="Themes">
+        <attr name="ProgressButtonStyle" format="reference"/>
+    </declare-styleable>
+
+
+    <!--自定义下载按钮-->
+    <declare-styleable name="ProgressButton">
+        <attr name="progress_ratio" format="float"/>
+
+        <attr name="progress_unreached_color" format="color|reference"/>
+        <attr name="progress_reached_color" format="color|reference"/>
+
+        <attr name="progress_unfinished_pressed_color" format="color|reference"/>
+        <attr name="progress_finished_pressed_color" format="color|reference"/>
+
+        <attr name="progress_text_size" format="dimension|reference"/>
+        <attr name="progress_text_color" format="color|reference"/>
+        <attr name="progress_text" format="string|reference"/>
+
+        <attr name="progress_corner_radius" format="dimension|reference"/>
+        <attr name="progress_draw_border" format="boolean"/>
+        <attr name="progress_border_color" format="color|reference"/>
+    </declare-styleable>
+</resources>

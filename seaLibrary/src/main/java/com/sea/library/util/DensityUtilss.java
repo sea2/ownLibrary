@@ -5,12 +5,12 @@ import android.content.res.Resources;
 /**
  * Created by lhy on 2019/7/19.
  */
-public class DensityUtil {
+public class DensityUtilss {
 
 
     public float density;
 
-    public DensityUtil() {
+    public DensityUtilss() {
         density = Resources.getSystem().getDisplayMetrics().density;
     }
 

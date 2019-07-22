@@ -18,6 +18,9 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven {
+            url 'https://liuhaiyang2.bintray.com/seaLibrary'
+        }
     }
     //加上这些
     tasks.withType(Javadoc) {
@@ -25,6 +28,10 @@ allprojects {
             charSet 'UTF-8'
             links "http://docs.oracle.com/javase/7/docs/api"
         }
+    }
+
+    tasks.withType(Javadoc).all {
+        enabled = false
     }
 }
 
