@@ -9,6 +9,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "seaLibrary"
 include ':app'
-include ':seaLibrary'
 
 
