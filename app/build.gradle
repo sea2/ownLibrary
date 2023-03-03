@@ -21,5 +21,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.sea.library:client:0.0.2'
+    api project(path: ':seaLibrary')
+
 }
