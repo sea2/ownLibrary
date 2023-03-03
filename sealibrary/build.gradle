@@ -1,15 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
-publish {
-    repoName="seaLibrary"//你的仓库名称,就是你创建的仓库的名称
-    userOrg = 'liuhaiyang2'      //bintray注册的用户名
-    groupId = 'com.sea.library'         //compile引用时的第1部分groupId
-    artifactId = 'client'     //compile引用时的第2部分项目名
-    publishVersion = '0.0.9'    //compile引用时的第3部分版本号
-    desc = 'This is a String to Project code'//d项目描述
-    website = 'https://github.com/sea2/ownLibrary' //github 托管地址
 
-}
 
 android {
     compileSdkVersion 28
