@@ -1,7 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
-
 android {
     compileSdkVersion 28
 
@@ -21,6 +20,11 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
 }
@@ -44,6 +48,7 @@ afterEvaluate {
                 groupId = 'com.sea.library'
                 artifactId = 'seaLibrary'
                 version = '1.1.3'
+
             }
         }
     }
