@@ -7,7 +7,6 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-rootProject.name = "seaLibrary"
-include ':app'
+include ':seaLibrary'
 
 
