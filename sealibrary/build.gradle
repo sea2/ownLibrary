@@ -3,8 +3,6 @@ plugins {
     id 'maven-publish'
 }
 
-group = 'com.github.sea222'
-version = '1.15'
 
 android {
     compileSdkVersion 31
@@ -38,11 +36,11 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 //建议和github地址对应，否则对jitpack无效
-                groupId = 'com.github.sea222'
+                groupId = 'com.github.sea2'
                 //建议和github仓库名称对应，否则对jitpack无效
                 artifactId = 'ownLibrary'
                 //建议和release的tag相同，否则对jitpack无效
-                version = '1.15'
+                version = '1.16'
             }
         }
     }
