@@ -3,6 +3,11 @@ plugins {
     id 'maven-publish'
 }
 
+task generateSourcesJar(type: Jar){
+    from android.sourceSets.main.java.srcDirs
+    classifier  'sources'
+}
+
 
 android {
     compileSdkVersion 31
@@ -40,7 +45,7 @@ afterEvaluate {
                 //建议和github仓库名称对应，否则对jitpack无效
                 artifactId = 'ownLibrary'
                 //建议和release的tag相同，否则对jitpack无效
-                version = '1.16'
+                version = '1.17'
             }
         }
     }
