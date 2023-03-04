@@ -3,7 +3,7 @@ package com.demo.mylibaray;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.sea.library.view.RoundAngleImageView;
+import com.github.sea2.view.RoundAngleImageView;
 
 public class MainActivity extends Activity {
 

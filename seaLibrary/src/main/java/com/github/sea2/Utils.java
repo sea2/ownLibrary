@@ -1,4 +1,4 @@
-package com.sea.library;
+package com.github.sea2;
 
 public class Utils {
 
